@@ -1,0 +1,167 @@
+<!--Mr Ade, SS2  class Teacher of St. Benedict high school was given the following data of his students. Below are the scores and subjects for each student
+
+
+ 
+
+AdeKunle Mathematics 72, English 43, Physics 78, Chemistry 73, Biology 37
+
+John         Mathematics 42, English 64, Physics 70, Chemistry 55, Biology 58
+
+Peter        Mathematics 62, English 40, Physics 73, Chemistry 75, Biology 99
+
+Rukayat    Mathematics 77, English 75, Physics 78, Chemistry 75, Biology 82
+
+Paul          Mathematics 72, English 40, Physics 72, Chemistry 70, Biology 97
+
+Victor        Mathematics 76, English 64, Physics 48, Chemistry 99, Biology 37
+
+John         Mathematics 62,English 54, Physics 78, Chemistry 75, Biology 64
+
+Doe          Mathematics 52 , English 84 , Physics 48, Chemistry 85, Biology 27
+
+Stephen    Mathematics 92, English 44, Physics 78, Chemistry 65, Biology 61
+
+
+TO DO
+In order to ease the task for Mr. Ade, Prepare an HTML table that has:
+
+ 
+
+Heading should contain details about the school, teacher, and class
+Ensure the Table Head(th) has a serial number, students, subjects, and total scores as columns.
+Ensure the Heading element has an id attribute
+Ensure your Table row (tr)  element has a class attribute.
+Ensure your table has a border attribute with a value of 1, cell padding, and cell spacing with a value of 5. 
+Ensure your total scores  has a colspan twice the score
+Ensure each subject score (td) has a class attribute.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>St. Benedict high school High school Data</title>
+  </head>
+  <body>
+    <heading id="school">
+      <h3>St. Benedict high school, Mr Ade(class Teacher), SS2</h3>
+    </heading>
+    <table border="1" cellpadding="5" cellspacing="5">
+      <thead>
+        <th>S/N</th>
+        <th>Students</th>
+        <th>Mathematics</th>
+        <th>English</th>
+        <th>Physics</th>
+        <th>Chemistry</th>
+        <th>Biology</th>
+        <th colspan="2">Total score</th>
+        <!--<th >Test</th> I added this column first to balance the structure of the table, then added two extra column on each row, afterwhich , I then deleted the "test" column from line 61-->
+        
+      </thead>
+      <tbody>
+        <tr class="row">
+          <td id="serial-number">1</td>
+          <td>AdeKunle</td>
+          <td class="subject-score">72</td>
+          <td class="subject-score">43</td>
+          <td class="subject-score">78</td>
+          <td class="subject-score">73</td>
+          <td class="subject-score">37</td>
+          <td class=""></td>
+          <td class=""></td>
+        </tr>
+        <tr class="row">
+          <td id="serial-number">2</td>
+          <td>John</td>
+          <td class="subject-score">42</td>
+          <td class="subject-score">64</td>
+          <td class="subject-score">70</td>
+          <td class="subject-score">55</td>
+          <td class="subject-score">58</td>
+          <td class=""></td>
+          <td class=""></td>
+        </tr>
+        <tr class="row">
+          <td id="serial-number">3</td>
+          <td>peter</td>
+          <td class="subject-score">62</td>
+          <td class="subject-score">40</td>
+          <td class="subject-score">73</td>
+          <td class="subject-score">75</td>
+          <td class="subject-score">99</td>
+          <td class=""></td>
+          <td class=""></td>
+        </tr>
+        <tr class="row">
+          <td id="serial-number">4</td>
+          <td>Rukayat</td>
+          <td class="subject-score">77</td>
+          <td class="subject-score">75</td>
+          <td class="subject-score">78</td>
+          <td class="subject-score">75</td>
+          <td class="subject-score">82</td>
+          <td class=""></td>
+          <td class=""></td>
+        </tr>
+        <tr class="row">
+          <td id="serial-number">5</td>
+          <td>paul</td>
+          <td class="subject-score">72</td>
+          <td class="subject-score">40</td>
+          <td class="subject-score">72</td>
+          <td class="subject-score">70</td>
+          <td class="subject-score">97</td>
+          <td class=""></td>
+          <td class=""></td>
+        </tr>
+        <tr class="row">
+          <td id="serial-number">6</td>
+          <td>victor</td>
+          <td class="subject-score">76</td>
+          <td class="subject-score">64</td>
+          <td class="subject-score">78</td>
+          <td class="subject-score">99</td>
+          <td class="subject-score">37</td>
+          <td class=""></td>
+          <td class=""></td>
+        </tr>
+        <tr class="row">
+          <td id="serial-number">7</td>
+          <td>John</td>
+          <td class="subject-score">62</td>
+          <td class="subject-score">54</td>
+          <td class="subject-score">78</td>
+          <td class="subject-score">75</td>
+          <td class="subject-score">64</td>
+          <td class=""></td>
+          <td class=""></td>
+        </tr>
+        <tr class="row">
+          <td id="serial-number">8</td>
+          <td>Doe</td>
+          <td class="subject-score">52</td>
+          <td class="subject-score">84</td>
+          <td class="subject-score">48</td>
+          <td class="subject-score">85</td>
+          <td class="subject-score">27</td>
+          <td class=""></td>
+          <td class=""></td>
+        </tr>
+        <tr class="row">
+          <td id="serial-number">9</td>
+          <td>Stephen</td>
+          <td class="subject-score">92</td>
+          <td class="subject-score">44</td>
+          <td class="subject-score">78</td>
+          <td class="subject-score">65</td>
+          <td class="subject-score">61</td>
+          <td class=""></td>
+          <td class=""></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
